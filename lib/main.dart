@@ -31,13 +31,10 @@ class _LoginDemoState extends State<MyApp> {
             Padding(
               padding: const EdgeInsets.only(top: 60.0),
               child: Center(
-                child: Container(
-                    width: 200,
-                    height: 150,
-                    /*decoration: BoxDecoration(
-                        color: Colors.red,
-                        borderRadius: BorderRadius.circular(50.0)),*/
-                    child: Image.asset('asset/images/flutter-logo.png')),
+                child: CircleAvatar(
+                  radius: 50,
+                  //child: Image.asset('asset/images/flutter-logo.png'),
+                ),
               ),
             ),
             Padding(
